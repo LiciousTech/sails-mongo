@@ -1,5 +1,5 @@
 var assert = require('assert');
-var _ = require('@sailshq/lodash');
+var _ = require('lodash');
 var Query = require('../../lib/query');
 
 describe('Query', function() {
