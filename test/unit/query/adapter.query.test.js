@@ -1,5 +1,5 @@
 var assert = require('assert');
-var _ = require('lodash');
+var _ = require('@sailshq/lodash');
 var ObjectId = require('mongodb').ObjectId;
 var Query = require('../../../lib/query');
 
