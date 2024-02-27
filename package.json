@@ -43,7 +43,7 @@
     "url": "git://github.com/balderdashy/sails-mongo.git"
   },
   "dependencies": {
-    "lodash": "4.17.21",
+    "@sailshq/lodash": "3.10.4",
     "async": "3.2.5",
     "mongodb": "4.17.2",
     "validator": "13.11.0",
@@ -60,7 +60,7 @@
   },
   "overrides": {
     "waterline-cursor": {
-      "lodash": "$lodash"
+      "lodash": "3.10.1"
     }
   },
   "waterlineAdapter": {

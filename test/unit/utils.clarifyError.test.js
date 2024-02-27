@@ -28,7 +28,7 @@ describe('clarifyError', function () {
     assert.strictEqual(validationError.originalError, err);
   });
 
-  it('handles lodashs in database names, collections, and attributes correctly', function () {
+  it('handles underscores in database names, collections, and attributes correctly', function () {
     var err = createError('test_db', 'my_collection_name', 'my_field_name', 'test_value');
     var validationError = clarifyError(err);
 
