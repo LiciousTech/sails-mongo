@@ -35,7 +35,7 @@ describe('adapter', function() {
             assert(!err);
           }).then((doc)=>{
             assert(doc.hello === 'world');
-            done(err);
+            done();
           })
         })
       });
