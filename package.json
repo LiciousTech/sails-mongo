@@ -1,6 +1,6 @@
 {
   "name": "sails-mongo",
-  "version": "0.12.5",
+  "version": "0.12.9",
   "description": "Mongo DB adapter for Sails.js",
   "main": "./lib/adapter.js",
   "scripts": {
@@ -45,7 +45,7 @@
   "dependencies": {
     "@sailshq/lodash": "^3.10.2",
     "async": "2.6.4",
-    "mongodb": "3.7.4",
+    "mongodb": "3.0.7",
     "validator": "4.5.1",
     "waterline-cursor": "0.0.7",
     "waterline-errors": "0.10.1"
