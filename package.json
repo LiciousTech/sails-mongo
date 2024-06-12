@@ -55,9 +55,6 @@
     "mocha": "3.0.2",
     "waterline-adapter-tests": "~0.12.1"
   },
-  "engines": {
-    "node": ">=18.18.1"
-  },
   "overrides": {
     "waterline-cursor": {
       "lodash": "3.10.1"
