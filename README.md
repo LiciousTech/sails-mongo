@@ -4,7 +4,7 @@
 [![npm version](https://badge.fury.io/js/sails-mongo.svg)](http://badge.fury.io/js/sails-mongo)
 
 
-> Custom fork for Sails 0.12.x to work with Mongo 6.0
+> Custom fork for Sails 0.12.x to work with Mongo 6.0.
 
 
 Sails.js/Waterline adapter for MongoDB.
